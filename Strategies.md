@@ -103,6 +103,21 @@
 --dpi-desync-badseq-increment=0
 ```
 ---
+# v10
+> Адаптация preset `hostfakesplit_multi_syndata` из zapret 2.x (lua-desync) под nfqws 1.x.
+> Соответствие: `hostfakesplit_multi,hosts=google.com,vimeo.com` → `hostfakesplit,host=google.com`;
+> `tcp_ts` → `fooling=ts`; `tcp_md5` → `md5sig`; `repeats=2` → `--dpi-desync-repeats=2`.
+> Без прямого эквивалента в 1.x: `lua-desync send` и `syndata` (SYN-data инъекция).
+> UDP-блок (`fake,quic_google,repeats=10`) добавляется отдельно через меню №9 (`#udp443`).
+```
+--filter-tcp=443
+--hostlist-exclude=/opt/zapret/ipset/zapret-hosts-user-exclude.txt
+--dpi-desync=hostfakesplit
+--dpi-desync-hostfakesplit-mod=host=google.com
+--dpi-desync-repeats=2
+--dpi-desync-fooling=ts,md5sig
+```
+---
 # Стратегия для игр
 
 - в **NFQWS_PORTS_UDP** добавить `1024-65535`
