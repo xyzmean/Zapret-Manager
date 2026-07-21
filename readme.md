@@ -7,8 +7,8 @@
 ![Script](https://img.shields.io/badge/Script-sh-informational)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![Community](https://img.shields.io/badge/Community-Enabled-green)
-[![Views](https://views.whatilearened.today/views/github/StressOzz/Zapret-Manager.svg)](https://github.com/StressOzz/Zapret-Manager)
-![GitHub last commit](https://img.shields.io/github/last-commit/StressOzz/Zapret-Manager)
+[![Views](https://views.whatilearened.today/views/github/xyzmean/Zapret-Manager.svg)](https://github.com/xyzmean/Zapret-Manager)
+![GitHub last commit](https://img.shields.io/github/last-commit/xyzmean/Zapret-Manager)
 
 </div>
 
@@ -122,11 +122,11 @@ sed -i '/#githubusercontent.com/,+2d' /etc/hosts; /etc/init.d/dnsmasq restart 2>
 Подключитесь по **SSH** к роутеру и выполните команду:
 
 ```
-sh <(wget -O - https://raw.githubusercontent.com/StressOzz/Zapret-Manager/main/Zapret-Manager.sh)
+sh <(wget -O - https://raw.githubusercontent.com/xyzmean/Zapret-Manager/main/Zapret-Manager.sh)
 ```
 или
 ```
-wget -O /tmp/Zapret-Manager.sh https://raw.githubusercontent.com/StressOzz/Zapret-Manager/main/Zapret-Manager.sh && sh /tmp/Zapret-Manager.sh
+wget -O /tmp/Zapret-Manager.sh https://raw.githubusercontent.com/xyzmean/Zapret-Manager/main/Zapret-Manager.sh && sh /tmp/Zapret-Manager.sh
 ```
 
 После запуска скрипта по команде выше, скрипт можно запускать в **SSH** командой:
@@ -163,8 +163,8 @@ zms
 
 В скрипте, в пункте 2, затем 0 - Тестировать стратегии для `YouTube` и Тестировать `v` и `Flowseal` стратегии
 
-- [Cтратегии для Youtube](https://github.com/StressOzz/Zapret-Manager/blob/main/Strategies_For_Youtube.md)
-- [Cтратегии используемые в скрипте](https://github.com/StressOzz/Zapret-Manager/blob/main/Strategies.md)
+- [Cтратегии для Youtube](https://github.com/xyzmean/Zapret-Manager/blob/main/Strategies_For_Youtube.md)
+- [Cтратегии используемые в скрипте](https://github.com/xyzmean/Zapret-Manager/blob/main/Strategies.md)
 
 ## 🔹 Telegram
 
@@ -199,7 +199,7 @@ zms
    
 - Сгенерируйте **WARP** 
  
-   Для генерации **WARP** через скрипт понадобится установить **[Zapret](https://github.com/StressOzz/Zapret-Manager)**
+   Для генерации **WARP** через скрипт понадобится установить **[Zapret](https://github.com/xyzmean/Zapret-Manager)**
    
 - Интегрируйте **WARP**
 
@@ -363,7 +363,7 @@ zms
 
 ---
 
-[![Star History Chart](https://api.star-history.com/svg?repos=StressOzz/Zapret-Manager&type=date&legend=top-left)](https://www.star-history.com/#StressOzz/Zapret-Manager&type=date&legend=top-left)
+[![Star History Chart](https://api.star-history.com/svg?repos=xyzmean/Zapret-Manager&type=date&legend=top-left)](https://www.star-history.com/#xyzmean/Zapret-Manager&type=date&legend=top-left)
 
 ---
 
